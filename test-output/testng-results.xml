@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter usernameAdminto usernameAdmin]]>
+    </line>
+    <line>
+      <![CDATA[Enter passwaordadmin123to passwordadmin123]]>
+    </line>
+    <line>
+      <![CDATA[click on login button[[ChromeDriver: chrome on WINDOWS (be8b8242d927da483419cb58f1d97e8a)] -> xpath: //button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']]]]>
+    </line>
+    <line>
+      <![CDATA[get verify text[[ChromeDriver: chrome on WINDOWS (be8b8242d927da483419cb58f1d97e8a)] -> xpath: //h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]]]>
+    </line>
+    <line>
+      <![CDATA[click on forgot password[[ChromeDriver: chrome on WINDOWS (44e16654e57da237c3ada09767cfd809)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]]]>
+    </line>
+    <line>
+      <![CDATA[ Reset password [[ChromeDriver: chrome on WINDOWS (44e16654e57da237c3ada09767cfd809)] -> xpath: //h6[text()='Reset Password']]]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="21527" started-at="2022-12-13T12:22:03 GMT" finished-at="2022-12-13T12:22:25 GMT">
+    <groups>
+      <group name="regrassion">
+        <method signature="LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.testsuite.LoginPageTest"/>
+      </group> <!-- regrassion -->
+      <group name="regression">
+        <method signature="LoginPageTest.userSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="userSholdLoginSuccessfullyWithValidCredentials" class="com.orangehrmlive.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.userSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="userSholdLoginSuccessfullyWithValidCredentials" class="com.orangehrmlive.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Listeners Test" duration-ms="21527" started-at="2022-12-13T12:22:03 GMT" finished-at="2022-12-13T12:22:25 GMT">
+      <class name="com.orangehrmlive.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="setUp" is-config="true" duration-ms="9440" started-at="2022-12-13T12:22:03 GMT" finished-at="2022-12-13T12:22:13 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="inIt" is-config="true" duration-ms="22" started-at="2022-12-13T12:22:13 GMT" finished-at="2022-12-13T12:22:13 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="userSholdLoginSuccessfullyWithValidCredentials" duration-ms="2457" started-at="2022-12-13T12:22:13 GMT" finished-at="2022-12-13T12:22:15 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter usernameAdminto usernameAdmin]]>
+            </line>
+            <line>
+              <![CDATA[Enter passwaordadmin123to passwordadmin123]]>
+            </line>
+            <line>
+              <![CDATA[click on login button[[ChromeDriver: chrome on WINDOWS (be8b8242d927da483419cb58f1d97e8a)] -> xpath: //button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']]]]>
+            </line>
+            <line>
+              <![CDATA[get verify text[[ChromeDriver: chrome on WINDOWS (be8b8242d927da483419cb58f1d97e8a)] -> xpath: //h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userSholdLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="tearDown" is-config="true" duration-ms="644" started-at="2022-12-13T12:22:15 GMT" finished-at="2022-12-13T12:22:16 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="setUp" is-config="true" duration-ms="7395" started-at="2022-12-13T12:22:16 GMT" finished-at="2022-12-13T12:22:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="inIt" is-config="true" duration-ms="0" started-at="2022-12-13T12:22:23 GMT" finished-at="2022-12-13T12:22:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="userShouldNavigateToForgotPasswordPageSuccessfully" duration-ms="925" started-at="2022-12-13T12:22:23 GMT" finished-at="2022-12-13T12:22:24 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click on forgot password[[ChromeDriver: chrome on WINDOWS (44e16654e57da237c3ada09767cfd809)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]]]>
+            </line>
+            <line>
+              <![CDATA[ Reset password [[ChromeDriver: chrome on WINDOWS (44e16654e57da237c3ada09767cfd809)] -> xpath: //h6[text()='Reset Password']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToForgotPasswordPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.testsuite.LoginPageTest@4524411f]" name="tearDown" is-config="true" duration-ms="603" started-at="2022-12-13T12:22:24 GMT" finished-at="2022-12-13T12:22:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.testsuite.LoginPageTest -->
+    </test> <!-- Listeners Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
